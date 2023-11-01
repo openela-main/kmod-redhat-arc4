@@ -1,0 +1,27 @@
+Index: src/lib/crypto/aes.c
+===================================================================
+--- src.orig/lib/crypto/aes.c	2023-05-31 09:41:53.066737337 +0200
++++ src/lib/crypto/aes.c	2023-06-06 01:51:24.888090454 +0200
+@@ -354,3 +354,4 @@
+ MODULE_DESCRIPTION("Generic AES library");
+ MODULE_AUTHOR("Ard Biesheuvel <ard.biesheuvel@linaro.org>");
+ MODULE_LICENSE("GPL v2");
++MODULE_VERSION("5.14.0_284.11.1_dup9.2");
+Index: src/lib/crypto/arc4.c
+===================================================================
+--- src.orig/lib/crypto/arc4.c	2023-05-31 09:41:53.067737328 +0200
++++ src/lib/crypto/arc4.c	2023-06-06 01:50:33.098694214 +0200
+@@ -72,3 +72,4 @@
+ EXPORT_SYMBOL(arc4_crypt);
+ 
+ MODULE_LICENSE("GPL");
++MODULE_VERSION("5.14.0_284.11.1_dup9.2");
+Index: src/lib/crypto/sha256.c
+===================================================================
+--- src.orig/lib/crypto/sha256.c	2023-05-31 09:41:53.075737261 +0200
++++ src/lib/crypto/sha256.c	2023-06-06 01:51:31.692012588 +0200
+@@ -207,3 +207,4 @@
+ EXPORT_SYMBOL(sha256);
+ 
+ MODULE_LICENSE("GPL");
++MODULE_VERSION("5.14.0_284.11.1_dup9.2");
